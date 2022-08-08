@@ -1,0 +1,6 @@
+1:   '{"s":"孤勇者","limit":"20","csrf_token":""}'       https://music.163.com/weapi/search/suggest/web?csrf_token=    //请求到搜索列表    
+
+2:    '{"id":1954943462,"lv":-1,"tv":-1,"csrf_token":""}'   https://music.163.com/weapi/feedback/weblog?csrf_token=
+
+3:   '{"ids":"[1954943462]","level":"standard","encodeType":"aac","csrf_token":""}'   https://music.163.com/weapi/song/enhance/player/url/v1?csrf_token=    //请求到真实mp4地址
+

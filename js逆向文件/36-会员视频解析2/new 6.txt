@@ -1,0 +1,36 @@
+16b711c80da1bb7b
+d4375381b6e68c1e
+
+
+32c4a2592cfe0591
+00ab6d864906cc4a
+
+
+
+----------------------------------------------------------------
+https://jx.playerjy.com/?url=https://v.qq.com/x/cover/dv71ekj7urmxkvp/a00177o0w31.html?n_version=2021
+get
+获取 vkey  authorization
+----------------------------------------------------------------
+https://jx.playerjy.com/api.php
+post
+type: parse
+vkey: deKeyCode(vkey)
+
+
+返回
+{"code":200,"vkey":"GUx5s58pl0tyhojPvYlhtkBiYZHU4sb3tiLkc1LCAWnNP04TK8gClpNGivK3T2L2ZREhpDaR\/mChqbtOW4ZhDy5ZGDVZEN\/beLFisvkjc0InnR+HqLIEkV37twhtZMJXHcRwMc5JdnM09p5xLpokh39qFBTfcqJujsdq2TlGbi0G1LR1O9hyK8DpYm3tUGzfXXr7bURCqd\/n2rDwaBsAZoqxiY3QkBTFFaSr2KXbbmslTwJLBRm+JB2P7pG6RF73LwnAi3X9fF8BcUup2Y90ySsFAtqHNF68x+XpBOP1p8WKLJrVOc74UXJj3pbOGktgw6Z8dsukly\/1AK1Aaa0g0BgdjgB002s90FmFtAuHLEpEO0DPe+qdpfPqISd+0vavSXkeeqIhJ3NudmiLHiSqfQ==","type":"video"}
+
+------------------------------------------------------------------
+取vkey对deKeyCode(authorization)进行AES解密
+密钥：'d4375381b6e68c1e'
+iv: '16b711c80da1bb7b'
+返回    {"code":5316,"key":"32c4a2592cfe059100ab6d864906cc4a","timestamp":1655181382,"type":"skey"}
+
+-------------------------------------------------------------------
+
+对加密的vkey进行AES解密
+key；返回key的后16位
+iv：返回key的前16位
+返回结果
+
